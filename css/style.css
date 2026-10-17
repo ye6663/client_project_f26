@@ -219,3 +219,14 @@ footer address {
 footer a:focus {
     outline-color: #ffcb05;
 }
+
+/* Photos */
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.photo-grid img {
+    min-width: 0;
+}
