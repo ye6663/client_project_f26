@@ -1,0 +1,12 @@
+/* Reset default spacing */
+html, body, h1, h2, h3, p, ul, ol, li,
+header, nav, main, section, article, aside, footer, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Include padding and borders in element sizes */
+* {
+    box-sizing: border-box;
+}

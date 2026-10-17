@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faculty Hub  | UMSI</title>
-
+<link rel="stylesheet" href="css/html5reset.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-  <a href = "#main">Skip to Main Content</a>
+  <a class="skip" href="#main">Skip to Main Content</a>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
-                 <li><a href="index.html">Home</a ></li>
-                 <li><a href="prep.html">Preparing for Your Experience</a ></li>
-                 <li><a href="starting.html">Starting Your Experience</a ></li>
-                 <li><a href="faculty.html">Faculty Hub</a ></li>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="prep.html">Preparing for Your Experience</a></li>
+                 <li><a href="starting.html">Starting Your Experience</a></li>
+                 <li><a href="faculty.html" class="active" aria-current="page">Faculty Hub</a></li>
             </ul>
         </nav>
     <h1>Faculty Hub</h1>
@@ -71,67 +72,30 @@
 <section>
     <h2>Student Experience Resources</h2>
 
-    <article>
-        <h3>Preparing for an Experience</h3>
+    <div class="resource-grid">
+        <article>
+            <h3>Preparing for an Experience</h3>
+            <p>
+                Students can review project context,
+                expectations, team roles, and preparation
+                questions before beginning their experience.
+            </p>
+            <a href="prep.html">View preparation resources</a>
+        </article>
 
-        <p>
-            Students can review project context, expectations, team roles,
-            and preparation questions before beginning their experience.
-        </p >
-
-        <a href="prep.html">View preparation resources</a >
-    </article>
-
-    <article>
-        <h3>Starting an Experience</h3>
-
-        <p>
-            Students can find guidance about communication, teamwork,
-            project management, feedback, and reflection during their work.
-        </p >
-
-        <a href="starting.html">View experience resources</a >
-    </article>
+        <article>
+            <h3>Starting an Experience</h3>
+            <p>
+                Students can find guidance about communication,
+                teamwork, project management, feedback,
+                and reflection during their work.
+            </p>
+            <a href="starting.html">View experience resources</a>
+        </article>
+    </div>
 </section>
-
-   <section>
-    <h2>Featured Programs</h2>
-    <p>Explore opportunities to collaborate with organizations, communities, student teams, and partners in Michigan and beyond.</p>
-    <article>
-    <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12810">AI Clinic Project Experience</a></h3>
-    <p>Work with a team on an applied artificial intelligence project for a partner organization.</p>
-    </article>
-
-    <article>
-    <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12556">A2 Data Dive</a></h3>
-    <p>Use information and data skills to help address challenges identified by community organizations.</p>
-    </article>
-
-     <article>
-      <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=11297">Alternative Fall Break</a></h3>
-      <p>Participate in a community-engaged learning experience during the University’s fall break.</p>
-    </article>
-
-    <article>
-      <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=10621">Alternative Spring Break (ASB)</a></h3>
-       <p>Collaborate with communities and nonprofit organizations on information-related projects during spring break.</p>
-    </article>
-
-    <article>
-      <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12294">Student Organization Engaged Learning Leaders</a></h3>
-       <p>Develop leadership and project-management skills while supporting engaged learning through a UMSI student organization.</p>
-    </article>
-
-    <article>
-      <h3><a href="https://www.si.umich.edu/student-life/study-abroad">Study Abroad</a></h3>
-      <p>Build intercultural awareness and apply your learning in an international setting. </p>
-    </article>
-   </section>
-  <section>
-    <h2>About the Engaged Learning Office</h2>
-    <p>The Engaged Learning Office works with partners across industries and sectors, from technology companies to grassroots nonprofits and cultural heritage institutions, to provide project-based opportunities for UMSI students.</p>
-    <p>Its mission is to facilitate transformational engaged learning experiences and enable innovative, sustainable, and mutually beneficial information solutions for local and global communities.</p>
-  </section>
+   
+  
   <aside>
     <h2>Stay Connected with ELO</h2>
     <p>Get updates about ELO programs, workshops, events, and opportunities through the weekly newsletter.</p>
