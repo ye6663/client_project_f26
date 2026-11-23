@@ -286,3 +286,13 @@ footer a:focus {
         border-top: 4px solid #ffcb05;
     }
 }
+
+.prep-checklist {
+    padding: 16px;
+    border: 2px solid #00274c;
+}
+
+.prep-checklist label {
+    display: block;
+    margin-bottom: 12px;
+}
