@@ -6,7 +6,10 @@
     <title>Preparing for Your Experience | UMSI</title>
     <link rel="stylesheet" href="css/html5reset.css">
 <link rel="stylesheet" href="css/style.css">
+<script src="js/site.js" defer></script>
 </head>
+
+
 <body>
 
     <header>
@@ -23,9 +26,9 @@
         </nav>
     <h1>Preparing for Your Experience</h1>
   </header>
-<main id="main">
+<main id="main" class="page-grid" tabindex="-1">
   
-<section>
+<section class="wide">
   <h2>Launch Your Engaged Learning Journey</h2>
   <div class="photo-grid">
     <img src="images/preparing.jpg"
@@ -43,8 +46,46 @@
 
 
 </section>
-
 <section>
+    <h2>Preparation Checklist</h2>
+
+    <p>
+        Before beginning an engaged learning experience, take time to make sure
+        you understand your goals, responsibilities, team, and project context.
+    </p>
+
+   <fieldset class="prep-checklist">
+    <legend>Mark the tasks you have finished</legend>
+
+    <label>
+        <input type="checkbox" id="task-goals"onclick="showProgress()">
+        Review the goals and expectations of the project.
+    </label>
+
+    <label>
+        <input type="checkbox" id="task-partner"onclick="showProgress()">
+        Learn about the partner organization and community.
+    </label>
+
+    <label>
+        <input type="checkbox" id="task-roles"onclick="showProgress()">
+        Discuss roles and responsibilities with your team.
+    </label>
+
+    <label>
+        <input type="checkbox" id="task-questions"onclick="showProgress()">
+        Identify questions that should be answered before the project begins.
+    </label>
+
+    <label>
+        <input type="checkbox" id="task-plan"onclick="showProgress()">
+        Make a plan for communication, deadlines, and project progress.
+    </label>
+</fieldset>
+
+<p id="progress" role="status"></p>
+</main>
+<section class="wide">
   <h2>Phase 1: Preparing for the Experience</h2>
   <p>Before creating a solution, take time to understand the context, evaluate your team's readiness, and identify what you still need to learn.</p>
   <article>
@@ -103,29 +144,13 @@
     </ul>
   </article>
 </section>
-<section>
-    <h2>Preparation Checklist</h2>
 
-    <p>
-        Before beginning an engaged learning experience, take time to make sure
-        you understand your goals, responsibilities, team, and project context.
-    </p >
-
-    <ul>
-        <li>Review the goals and expectations of the project.</li>
-        <li>Learn about the partner organization and community.</li>
-        <li>Discuss roles and responsibilities with your team.</li>
-        <li>Identify questions that should be answered before the project begins.</li>
-        <li>Make a plan for communication, deadlines, and project progress.</li>
-    </ul>
-</section>
-</main>
 <footer>
         <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p>&copy; <span id="year">2026</span> Regents of the University of Michigan</p>
     </footer>
     
 </body>
